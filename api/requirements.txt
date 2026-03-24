@@ -1,0 +1,11 @@
+Flask==3.0.0
+ldap3==2.9.1
+google-auth==2.23.0
+google-auth-httplib2==0.1.1
+gunicorn==21.2.0
+opentelemetry-api
+opentelemetry-sdk
+opentelemetry-exporter-otlp-proto-grpc
+opentelemetry-instrumentation-flask
+opentelemetry-instrumentation-requests
+requests

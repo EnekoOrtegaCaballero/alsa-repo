@@ -1,0 +1,53 @@
+# Terraform
+# Ignorar el directorio de configuración del provider
+**/.terraform/
+
+# Ignorar estado de terraform local (puede contener secretos)
+*.tfstate
+*.tfstate.backup
+
+# Ignorar variables reales de terraform (contienen contraseñas como el AD_PASSWORD)
+*.tfvars
+*.tfvars.json
+
+# Pero NO ignorar el archivo de ejemplo
+!terraform.tfvars.example
+
+# Archivos de crash/log
+crash.log
+crash.*.log
+
+# Plan de terraform
+*.tfplan
+
+# macOS
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
+
+# Python (API)
+__pycache__/
+*.py[cod]
+*$py.class
+*.env
+.venv/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Archivos de texto o datos sensibles/temporales
+*.csv
+*.txt
+!api/requirements.txt
+*.md
+!README.md
+
+# Claves y certificados
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx

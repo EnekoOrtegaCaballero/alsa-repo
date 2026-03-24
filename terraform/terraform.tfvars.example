@@ -1,0 +1,16 @@
+# Copia este archivo como 'terraform.tfvars' y rellena tus datos
+
+project_id    = "TU_ID_DE_PROYECTO_GCP"
+region        = "europe-southwest1"
+zone          = "europe-southwest1-a"
+
+domain_name   = "acme.local"
+ad_password   = "SuperPassword.2026!"
+
+zabbix_server = "zabbix.enekoortega.com"
+zabbix_user   = "ZABBIX_API_USER_SI_LO_NECITAS_U_OTRO"
+zabbix_pass   = "TU_PASSWORD_DE_ZABBIX"
+vps_ip        = "1.2.3.4" # Pon aquí la IP real de tu VPS (enekoortega.com)
+
+loki_url      = "http://grafana.enekoortega.com:3100/loki/api/v1/push"
+git_repo_url  = "https://github.com/tu-usuario/acme-repo.git" # Repositorio donde subas este proyecto
